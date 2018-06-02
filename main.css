@@ -1,0 +1,48 @@
+
+.col-lg-3{
+    background-color:aquamarine;
+    border: 5px solid white;
+    text-align: center;
+    color:black;
+  
+}
+
+h1{
+    position: relative;
+   text-align: center;
+    animation-name: move-left;
+    animation-duration: 2s;
+}
+@keyframes move-left{
+    from{
+        left: 300px;
+    }
+    to{
+        left: 325px;
+    }
+}
+
+    
+ 
+.item{
+    height:30px;
+    border: 1px solid transparent;
+    background-color:white;
+    border-radius: 5px;
+    text-align:center;
+    height:30vh;
+    width:20vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 1px 1px;
+    transition: box-shadow ease-in 2s;
+}
+img{
+    height:12vh;
+}
+
+
+.item:hover{
+    box-shadow: 4px 4px;
+}
